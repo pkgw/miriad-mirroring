@@ -1,0 +1,7 @@
+cal103=Mark Calabretta <mcalabre@atnf.csiro.au>
+mci156=Vince McIntyre <Vincent.McIntyre@csiro.au>
+mirmgr=mirmgr
+rsault=Bob Sault <rsault@nrao.edu>
+sau078=Bob Sault <rsault@nrao.edu>
+ste616=Jamie Stevens <Jamie.Stevens@csiro.au>
+wie017=Mark Wieringa <Mark.Wieringa@csiro.au>
