@@ -8,3 +8,6 @@ results:
 
 * the [ATNF MIRIAD mirror](http://github.com/pkgw/atnf-miriad)
 * the [CARMA MIRIAD mirror](http://github.com/pkgw/carma-miriad)
+
+The code in this project is licensed under the GPL version 3 or
+later.
