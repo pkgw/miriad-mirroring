@@ -21,7 +21,7 @@
 # Intended to be run from cron, so tries to produce no output
 # under normal circumstances.
 
-url='ftp://ftp.atnf.csiro.au/pub/software/miriad/miriad-rcs.tar.gz'
+url='ftp://ftp.atnf.csiro.au/pub/software/miriad/miriad-rcs.tar.bz2'
 set -e
 
 # Configuration (such as it is). Requires $ATNF_GIT_DIR
@@ -50,7 +50,7 @@ export CVSROOT=$work/cvsroot
 log=$work/cvsimport.log
 
 cd $work
-curl -s "$url" |tar xz
+curl -s "$url" |tar xj
 cvs init
 ln -s ../miriad/.rcs cvsroot/miriad
 git cvsimport -o CVSHEAD -i -a -k -A $authfile miriad >$log 2>&1
